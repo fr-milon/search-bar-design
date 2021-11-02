@@ -1,0 +1,116 @@
+/* This website design by Freelancer Milon - 
+    Facebook-Page : https://facebook.com/freelancer.milonbd   
+    Facebook-Profile : https://facebook.com/rjapppon 
+    Github : https://github.com/fr-milon
+    Phone : 8801955255066
+    Business Email: millonhossain1993@gmail.com
+                  - freelancermilon@yahoo.com
+*/
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* MAIN BODY  */
+body {
+    background: black;
+   background-size: cover;
+   margin: 0 auto;
+ }
+
+ /* SEARCH BOX  */
+#search {
+     height: 50px;
+     width: 80%;
+    
+     margin: 200px auto 0;
+     border-radius: 20px;
+ }
+ 
+ /* SEARCH INPUT SIDE  */
+ .left_search {
+     height: 50px;
+     width: 70%;
+     float: left;
+     border-radius: 20px 0px 0px 20px;
+ }
+ .left_search input {
+     height: 50px;
+     width: 100%;
+     padding: 5px;
+     margin: 0 auto;
+     border-radius: 20px 0px 0px 20px;
+     border: none;
+     font-size: 18px;
+     outline: solid yellow;
+     padding-left: 20px;
+ }
+ .left_search input:active {
+    outline: none;
+    outline: solid yellow;
+
+ }
+ .left_search input::placeholder {
+     font-size: 20px;
+     padding: 10px;
+ }
+
+ /* RIGHT SUBMIT BUTTON  SIDE  */
+ .right {
+     height: 50px;
+    width: 30%;
+    float: right;
+ }
+ button:active {
+    background: orange;
+    color: white;
+ }
+ button:hover {
+    background: orange;
+    color: white;
+ }
+ .btn {
+     height: 100%;
+     width: 100%;
+     background: yellow;
+    border: 2px solid green;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    outline: solid yellow;
+    cursor: pointer;
+ }
+
+
+.design_by {
+    height: auto;
+    width: auto;
+    border: 1px solid white;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    padding: 10px;
+}
+.design_by h1 {
+    color: white;
+    font-size: 30px;
+}
+.design_by a {
+    font-family: impact;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: red;
+    cursor: pointer;
+    text-shadow: 2px 1px 1px white;
+    transition: 0.6s;
+}
+.design_by a:hover {
+    color: yellow;
+    text-decoration: none;
+    transition: 0.6s;
+    text-shadow: none;
+    letter-spacing: 2px;
+
+}
